@@ -1,16 +1,16 @@
 package com.github.glo2003.payroll;
 
 public class Paycheck {
-    private String to;
+    private String payee;
     private float amount;
 
-    public Paycheck(String to, float amount) {
-        this.to = to;
+    public Paycheck(String whichPayee, float amount) {
+        this.payee = whichPayee;
         this.amount = amount;
     }
 
     public String getTo() {
-        return to;
+        return payee;
     }
 
     public float getAmount() {
